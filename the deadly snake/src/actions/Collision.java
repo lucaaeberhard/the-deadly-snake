@@ -23,7 +23,8 @@ public class Collision {
             if (Snake.head.getX() == Snake.pickup.getX() && Snake.head.getY() == Snake.pickup.getY()) {
                 Snake.pickup.reset();
                 Snake.addTail();
-                //Score
+                Snake.score +=1;
+                if(Snake.score > Snake.bestscore) Snake.bestscore = Snake.score;
             }
         }
 

@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/Collision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/Collision.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/clock/GameClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clock/GameClock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/PickUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/PickUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Snake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Draw.java" afterDir="false" />
     </list>

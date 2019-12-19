@@ -9,19 +9,19 @@ public class GameClock extends Thread{
     public void run(){
         while(running){
             try{
-                sleep(1);
+                sleep(200);
                 Snake.move();
                 Snake.waitToMove = false;
                 Collision.collidePickUP();
                 if(Collision.collideSelf()){
                     Snake.tails.clear();
-                    //Score
+                    Snake.score = 0;
                 }
                 if(Collision.collideWall()){
                     Snake.tails.clear();
                     Snake.head.setX(7);
                     Snake.head.setY(7);
-                    //Score
+                    Snake.score = 0;
                 }
             }
             catch (InterruptedException e) {
