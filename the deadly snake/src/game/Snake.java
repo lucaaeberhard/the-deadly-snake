@@ -39,11 +39,11 @@ public class Snake {
             }
         }
         //Move first Tail to Head
-        if (tails.size() >= 1)
-            for (int i = tails.size() - 1; i >= 1; i--) {
+        if (tails.size() >= 1){
                 if (tails.get(0).isWait()) {
                     tails.get(0).setWait(false);
-                } else {
+                }
+                else {
                     tails.get(0).setX(head.getX());
                     tails.get(0).setY(head.getY());
                 }

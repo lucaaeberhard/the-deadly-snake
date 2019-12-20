@@ -16,7 +16,14 @@ public class Collision {
 
 
         public static boolean collideWall() {
-            return (Snake.head.getX() < 0 || Snake.head.getX() > 15 || Snake.head.getY() < 0 || Snake.head.getY() > 1);
+
+            boolean b = false;
+            if (Snake.head.getX() > 15 || Snake.head.getX() < 0 || Snake.head.getY() > 15 || Snake.head.getY() < 0) {
+                return true;
+            }
+            else{
+                return false;
+            }
         }
 
         public static void collidePickUP() {

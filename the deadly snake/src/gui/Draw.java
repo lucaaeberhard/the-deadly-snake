@@ -15,11 +15,11 @@ public class Draw extends JLabel {
         g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING,RenderingHints.VALUE_ANTIALIAS_OFF);
 
         //Draw Background
-        g.setColor(Color.LIGHT_GRAY);
+        g.setColor(Color.WHITE);
         g.fillRect(0, 0,Gui.width,Gui.height);
 
-        //Draw Snake Tails / g.drawImage für Bild
-        g.setColor(Color.GREEN);
+        //Draw Snake Tails
+        g.setColor(Color.CYAN);
         for(int i = 0; i < Snake.tails.size(); i++){
             p = Snake.ptc(Snake.tails.get(i).getX(), Snake.tails.get(i).getY());
             g.fillRect(p.x,p.y, 32,32);
@@ -31,6 +31,7 @@ public class Draw extends JLabel {
         g.fillRect(p.x,p.y, 32,32);
 
         //Draw PickUP
+        //g.setColor(Color.RED);
         g.setColor(Color.RED);
         p = Snake.ptc(Snake.pickup.getX(), Snake.pickup.getY());
         g.fillRect(p.x, p.y,32,32);
@@ -49,8 +50,9 @@ public class Draw extends JLabel {
         repaint();
 
         //Draw Score
-
+        g.setFont(new Font("Scoreboard", Font.BOLD, 20));
         g.drawString("Score: " +Snake.score, 5,25);
         g.drawString("Best: " +Snake.bestscore, 655,25);
+
     }
 }
