@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c32e5b0e-0922-4b3c-a791-0a87d5392245" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/the deadly snake/actions/Collision.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/the deadly snake/actions/Collision.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/the deadly snake/clock/GameClock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/the deadly snake/clock/GameClock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/the deadly snake/game/Snake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/the deadly snake/game/Snake.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/Collision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/Collision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/KeyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/KeyHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/clock/GameClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clock/GameClock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/Dir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Dir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Snake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Draw.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,11 +85,6 @@
           <url>file://$PROJECT_DIR$/src/actions/KeyHandler.java</url>
           <line>18</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gui/Draw.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

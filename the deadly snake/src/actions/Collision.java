@@ -20,6 +20,7 @@ public class Collision {
             boolean b = false;
             if (Snake.head.getX() > 15 || Snake.head.getX() < 0 || Snake.head.getY() > 15 || Snake.head.getY() < 0) {
                 return true;
+
             }
             else{
                 return false;
