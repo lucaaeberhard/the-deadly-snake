@@ -11,13 +11,14 @@ public class Draw extends JLabel {
     Point p;
 
     protected void paintComponent(Graphics g) {
-        super.paintComponent(g);
+
+;       super.paintComponent(g);
         Graphics2D g2d = (Graphics2D) g;
         g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_OFF);
 
         //Draw Background
         g.setColor(Color.WHITE);
-        g.fillRect(0, 0, Gui.width, Gui.height);
+       g.fillRect(0, 0, Gui.width, Gui.height);
 
         //Draw Snake Tails
         g.setColor(Color.CYAN);

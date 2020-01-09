@@ -16,7 +16,7 @@ public class GameOver {
 
     public static void createDeath(GameClock clock){
 
-        int answer = JOptionPane.showConfirmDialog(null, "GAME OVER. NEUSTARTEN?");
+        int answer = JOptionPane.showConfirmDialog(null, "GAME OVER! NEUSTARTEN?");
         if (answer == JOptionPane.YES_OPTION) {
             clock.running = true;
 
@@ -24,6 +24,12 @@ public class GameOver {
         } else if (answer == JOptionPane.NO_OPTION) {
             System.exit(0);
         }
+    }
+
+
+    public static void setPause(GameClock clock) {
+        clock.isPaused = !clock.isPaused;
+
     }
 }
 

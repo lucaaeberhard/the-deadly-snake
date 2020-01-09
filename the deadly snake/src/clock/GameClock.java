@@ -8,10 +8,20 @@ import java.awt.*;
 
 public  class GameClock extends Thread{
     public boolean running = true;
+    public boolean isPaused = false;
 
-    public void run(){
+    public void run()  {
         while(running){
-            try{
+            if (isPaused) {
+                try {
+                   sleep(1);
+                }
+                catch (Exception e) { e.printStackTrace(); }
+
+                continue;
+            }
+
+           try {
                 sleep(125);//100
                 Snake.move();
                 Snake.waitToMove = false;

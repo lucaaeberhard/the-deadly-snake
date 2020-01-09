@@ -9,7 +9,7 @@ public class Main {
         Gui g = new Gui();
         GameClock gc = new GameClock();
 
-        g.create();
+        g.create(gc);
         gc.start();
     }
 }

@@ -4,11 +4,17 @@
     <list default="true" id="c32e5b0e-0922-4b3c-a791-0a87d5392245" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/the deadly snake/clock/GameClock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/the deadly snake/clock/GameClock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/the deadly snake/gui/Draw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/the deadly snake/gui/Draw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/the deadly snake/gui/GameOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/the deadly snake/gui/GameOver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/the deadly snake/gui/Gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/the deadly snake/gui/Gui.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/KeyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/KeyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/clock/GameClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clock/GameClock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Draw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/DrawDeath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/DrawDeath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/GameOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/GameOver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Gui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../~$ Analyse Dokument (SRS).dotx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../~$forderungsanalyse.docx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,14 +86,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/actions/KeyHandler.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/actions/KeyHandler.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/src/clock/GameClock.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
