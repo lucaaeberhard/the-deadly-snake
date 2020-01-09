@@ -5,13 +5,15 @@ import actions.KeyHandler;
 import javax.swing.*;
 
 public class Gui {
-    JFrame jf;
-    Draw d;
 
     public static int width = 800, height = 600;
     public static int xoff = 130, yoff = 20;
 
-    public void create(){
+    public static void create(){
+
+        JFrame jf;
+        Draw d;
+
         jf = new JFrame("the deadly snake");
         jf.setSize(width,height);
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

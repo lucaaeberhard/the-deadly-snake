@@ -3,7 +3,6 @@ package gui;
 import actions.Collision;
 import game.Snake;
 
-
 import javax.swing.*;
 import java.awt.*;
 
